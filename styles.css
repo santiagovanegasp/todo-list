@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* html {
+	font-size: 62.5%;
+} */
+
+
+body {
+	font-size: 1.6rem;
+	font-family: "Poppins", sans-serif;
+    background-color: #86bbd8;
+    
+}
+
+h1{
+    color: #003249;
+}
+
+
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+#todo-list{
+
+    background-color: #e8f8e9;
+    max-width: 500px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    gap: 10px; 
+
+}
+
+
+.divtask{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+    gap: 10px; 
+}
+
+input{
+    border: 2px solid #003249;
+    border-radius: 5px;
+    min-height: 30px;
+    
+   
+}
+
+input::placeholder{
+    color: #313f45;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+button{
+    min-width: 25px;
+    font-size: 20px;
+    align-self: center;
+}
+
+
+#add-todo-button{
+    background-color: #6a9664;
+}
+
+.btndeletecss{
+
+    background-color: #ff8484;
+}
+
+
+#addTaskdiv{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+
+}
